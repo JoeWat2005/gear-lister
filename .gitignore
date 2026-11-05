@@ -1,0 +1,7 @@
+.env
+.ebay_token*.json
+out/
+photos/
+music stuff/
+__pycache__/
+*.pyc
