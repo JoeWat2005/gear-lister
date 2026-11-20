@@ -11,6 +11,7 @@ Reverb has no auction format, so Reverb listings are always fixed price (with of
 - Imports your existing Reverb listings, photos included, into `items.csv`.
 - Uploads local photos to eBay's picture service and writes the public URLs back into `items.csv`, where Reverb can use them too.
 - Reports live eBay listing status: bids, current price, whether the reserve is met, watchers and time left, plus items sold in the last 60 days.
+- `sales.csv` is a hand-kept record of what has sold: date, item, site, sale price, postage paid and where the parcel has got to. It holds no buyer names or addresses.
 - Keeps Reverb in step with eBay: pushes price changes, relists ended Reverb listings at the live eBay Buy It Now price, and matches Reverb UK delivery to the eBay postage tier.
 - Logs every created listing in `out/results.csv`, so re-runs skip items that are already done.
 - Works against the eBay and Reverb sandboxes for testing.
